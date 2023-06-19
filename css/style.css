@@ -10,7 +10,7 @@
 }
 
 body{
-    background: #b71717;
+    background: #F9F9F9;
 }
 .container{
     background: #F9F9F9;
@@ -87,6 +87,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     top: 35%;
+    margin: 0.5%;
 }
 .heading-box{
     font-family: 'Montserrat', sans-serif;
@@ -139,6 +140,7 @@ body{
     margin-top: auto;
     height: 3%;
     width: 100%;
+    padding: 2px;
     background: #00AEFF;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
