@@ -150,11 +150,11 @@ body{
 }
 @media (max-width: 700px){
     .box-photo{
-        width: 400px;
-        height: 250px;
+        width: 350px;
+        height: 225px;
     }
     .photo{
-        width: 332px;
-        height: 200px;
+        width: 328px;
+        height: 196px;
     }
 }
