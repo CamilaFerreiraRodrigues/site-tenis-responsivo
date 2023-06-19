@@ -1,0 +1,158 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 
+}
+
+body{
+    background: #b71717;
+}
+.container{
+    background: #F9F9F9;
+    height: 100vh;
+    width: 100%;
+}
+
+.head{
+    background: burlywood;
+    height: 30%;
+    
+}
+.descont{
+    background: #00AEFF;
+    text-align: center;
+    height: 10%;
+    font-size: 12px;
+}
+.mark{
+    background: #F9F9F9;
+    text-align: center;
+    height: 10%;
+    font-size: 15px;
+    font-weight: 500;
+}
+.conteudo-head{
+    background-image: url("wallpaper.jpeg");
+    background-size: cover;
+    background-position: 50%;
+    height: 100%;
+}
+
+
+.title{
+    background: rgba(0, 0, 0, 0.493);
+    height: 100%;
+}
+
+.title h1{
+    position: relative;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: left;
+    color: #F9F9F9;
+    margin-left: 5%;
+    top: 16%;
+}
+.title p{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 20px;
+    color: #F9F9F9;
+    font-size: 12px;
+    margin-left: 5%;
+    top: 20%
+}
+.body{
+    display: flex;
+    align-items: center;
+    background: #F9F9F9;
+    min-height: 67%;
+    width: 100%;
+}
+
+
+.headering{
+
+    background-color:  #F9F9F9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 35%;
+}
+.heading-box{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+    color: #181818;
+    text-align: center;
+    font-size: 20px;
+
+}
+.p-box{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+    font-size: 12px;
+    color: #474747;
+    font-size: 10px;
+    text-align: center;
+}
+
+.father-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    background:  #F9F9F9;
+    height: 63%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 70px;
+    margin-bottom: 2%;
+    
+}
+
+.box-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EBE9EA;
+    margin: 4px ;
+    width: 280px;
+    height: 160px;
+    margin-top: 10px;
+}
+
+.photo{
+    width: 166px;
+    height: 100px;
+}
+.rodape{
+    position: relative;
+    margin-top: auto;
+    height: 3%;
+    width: 100%;
+    background: #00AEFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #181818;
+    text-align: center;
+    
+}
+@media (max-width: 700px){
+    .box-photo{
+        width: 400px;
+        height: 250px;
+    }
+    .photo{
+        width: 332px;
+        height: 200px;
+    }
+}
